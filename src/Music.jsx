@@ -26,7 +26,7 @@ export const Music = () => {
   }, [volume, audio])
 
   return (
-    <div style={{ position: 'fixed', bottom: 10, left: 0, right: 0, backgroundColor: 'rgba(0,0,0,0.5)', width: '10%'}}>
+    <div style={{ position: 'fixed', bottom: 10, left: 0, right: 0, backgroundColor: 'rgba(0,0,0,0.5)', width: '10%', padding: '5px', borderRadius: '5px'}}>
       <input
         type="range"
         min="0"
