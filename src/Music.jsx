@@ -9,8 +9,10 @@ export const Music = () => {
     if (gameStarted) {
       audio.play()
     }
+    return () => {
+      audio.pause()
+    }
   }, [gameStarted])
 
   return null
 }
-    
